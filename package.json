@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "newman run notes_api_test.postman_collection.json --environment notes_api_test.postman_environment.json",
+    "test": "newman run ./tests/bookshelf_api_test.postman_collection.json --environment ./tests/bookshelf_api_test.postman_environment.json",
     "lint": "eslint ./src",
     "start": "node ./src/server.js",
     "start-dev": "nodemon ./src/server.js"
